@@ -74,7 +74,7 @@ with st.sidebar:
     st.markdown("[🔗 View the code on GitHub](https://github.com/AidanKraan/knee-oa-kl-classifier)")
 
 # ---------- Main ----------
-st.title("🦵 Knee Osteoarthritis KL-Grade Classifier")
+st.title(" Knee Osteoarthritis KL-Grade Classifier")
 st.caption("Upload a knee X-ray → predicted KL grade (0–4) + a Grad-CAM heatmap of where the model looked.")
 
 st.warning(
