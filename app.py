@@ -7,7 +7,7 @@ from PIL import Image
 from torchvision import transforms, models
 from huggingface_hub import hf_hub_download
 
-st.set_page_config(page_title="Knee OA KL-Grade Classifier", page_icon="🦵", layout="wide")
+st.set_page_config(page_title="Knee OA KL-Grade Classifier", page_icon="", layout="wide")
 
 @st.cache_resource
 def load_model():
